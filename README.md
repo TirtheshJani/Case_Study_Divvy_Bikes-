@@ -37,4 +37,4 @@ Based on the analysis, the following strategic recommendations are proposed to o
 # Conclusion
 The analysis of Divvy bike-sharing data provides valuable insights into the usage patterns of Chicago’s bike-share system. It highlights the differences in behavior between member and casual riders, offering a foundation for targeted strategies to enhance service offerings. These insights are crucial for stakeholders in making informed decisions to improve the bike-sharing experience and contribute to the overall urban mobility landscape in Chicago.
 
-
+Link to Tableau Dashboard: https://public.tableau.com/views/DivvyBikes_17079314381930/DivvyaYearinReview2023?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link
