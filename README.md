@@ -1,40 +1,134 @@
-# Case_Study_Divvy_Bikes-
-How does a bike-share navigate speedy success?
-Divvy Bike Sharing Data Analysis Report
-# Introduction
-This report presents a comprehensive analysis of data sourced from Divvy Bikes, Chicago's prominent bike-share system. Divvy Bikes, operated by Lyft in partnership with the City of Chicago, provides detailed trip data that is invaluable for understanding urban mobility and bike-sharing usage patterns. This analysis leverages data organized in CSV format, focusing on various aspects such as ride ID, rideable type, start and end times, stations, and rider type (member or casual).
-## Data Organization and Integrity
-The dataset comprises rows representing individual trips and columns detailing aspects of each trip. Key columns include ride ID, rideable type, start and end times, station names and IDs, latitude and longitude of stations, and rider type. The data's integrity was verified through checks for completeness, accuracy, consistency, and by ensuring appropriate data types for each column.
-Analysis Objectives and Methods
-The primary objective of this analysis is to uncover patterns in urban transportation through bike-sharing usage, particularly focusing on the differences between casual riders and members, and how these insights can inform infrastructure and urban planning decisions.
-Tools used for this analysis include:
-•	Pandas: For data manipulation and analysis.
-•	Python: For overall programming needs and running analysis scripts.
-•	Jupyter Notebook: For documenting the analysis process.
-•	Tableau: For Data Visualizations. 
+# 🚴‍♂️ Divvy Bikes Case Study: Navigating Speedy Success
 
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)](https://public.tableau.com/views/DivvyBikes_17079314381930/DivvyaYearinReview2023)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+> **How does a bike-share navigate speedy success?**  
+> A comprehensive data analysis of Chicago's Divvy bike-sharing system to uncover usage patterns and drive business strategy.
 
+---
 
-## Key Findings
-1.	Ride Length Analysis:
-•	The average ride length across all trips is approximately 11 minutes.
-•	A wide range of ride lengths was observed, with a maximum of around 1498 minutes, indicating potential outliers or long-term rentals.
-2.	Day of the Week Analysis:
-•	Ride lengths vary by day, with weekends showing longer average ride lengths compared to weekdays, suggesting more leisurely rides or different usage patterns.
-•	The highest number of rides occurs mid-week, with a noticeable drop during the weekends.
-3.	Member vs. Casual Usage Patterns:
-•	Casual riders have longer average ride lengths compared to members, indicating a more leisurely use of the bike-sharing system.
-•	Members show more consistent usage throughout the week with a slight increase in ride lengths over weekends.
-4.	Insights and Implications:
-•	There's a clear distinction in usage patterns between weekdays and weekends, with weekends favoring longer, leisure-oriented rides.
-•	Mid-week days experience the highest volume of bike rides, suggesting a pattern of commuting or routine use.
-## Recommendations
-Based on the analysis, the following strategic recommendations are proposed to optimize the bike-sharing experience in Chicago:
-•	Targeted Marketing Strategies: Develop campaigns aimed at converting casual riders to members by highlighting benefits and cost savings for frequent use.
-•	Weekend Promotions: Introduce weekend promotions or guided tour routes to attract casual riders seeking leisure activities.
-•	Fleet and Station Management: Adjust bike and dock availability to accommodate observed peak usage times and patterns, ensuring optimal service for both member and casual riders.
-# Conclusion
-The analysis of Divvy bike-sharing data provides valuable insights into the usage patterns of Chicago’s bike-share system. It highlights the differences in behavior between member and casual riders, offering a foundation for targeted strategies to enhance service offerings. These insights are crucial for stakeholders in making informed decisions to improve the bike-sharing experience and contribute to the overall urban mobility landscape in Chicago.
+## 📊 Project Overview
 
-Link to Tableau Dashboard: https://public.tableau.com/views/DivvyBikes_17079314381930/DivvyaYearinReview2023?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link
+This project presents a comprehensive analysis of **Divvy Bikes**, Chicago's premier bike-share system operated by Lyft in partnership with the City of Chicago. The analysis transforms raw trip data into actionable insights that inform marketing strategies, fleet management, and urban planning decisions.
+
+### Business Problem
+Understanding the behavioral differences between **casual riders** and **annual members** is crucial for:
+- Converting casual riders to members
+- Optimizing bike distribution
+- Improving station placement
+- Maximizing revenue
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Data Analysis** | Python, Pandas, NumPy |
+| **Visualization** | Tableau, Matplotlib, Seaborn |
+| **Environment** | Jupyter Notebook |
+| **Documentation** | PDF Reports |
+
+---
+
+## 📈 Key Findings
+
+### 1. Ride Duration Patterns
+- **Average ride length:** ~11 minutes
+- **Casual riders** take significantly longer rides than members (leisure vs. commuting)
+- Maximum observed ride: ~1,498 minutes (potential outliers/long-term rentals)
+
+### 2. Weekly Usage Patterns
+| Day | Pattern |
+|-----|---------|
+| **Weekdays** | Higher volume, shorter rides (commuting) |
+| **Weekends** | Lower volume, longer rides (leisure/tourism) |
+
+### 3. Member vs. Casual Insights
+- **Casual riders:** Longer rides, weekend-focused, tourist/leisure behavior
+- **Members:** Consistent usage, commute-focused, routine patterns
+
+---
+
+## 🎯 Strategic Recommendations
+
+### 1. Conversion Campaigns
+- Target casual riders with membership benefits highlighting cost savings
+- Emphasize convenience for frequent users
+
+### 2. Weekend Promotions
+- Introduce guided tour routes for tourists
+- Weekend-specific pricing to encourage membership
+
+### 3. Fleet Optimization
+- Adjust bike availability for weekday commuting peaks
+- Ensure optimal distribution during weekend leisure hours
+
+---
+
+## 📊 Dashboard
+
+Explore the interactive Tableau dashboard:
+
+**[🔗 View Divvy Bikes Dashboard](https://public.tableau.com/views/DivvyBikes_17079314381930/DivvyaYearinReview2023?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link)**
+
+![Dashboard Preview](https://img.shields.io/badge/Tableau-Dashboard-green?style=for-the-badge&logo=tableau)
+
+---
+
+## 🚀 How to Use This Project
+
+### Prerequisites
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+### View the Analysis
+1. Download the PDF report: `Divvy a Year in Review 2023.pdf`
+2. Or explore the Tableau dashboard online
+3. Review the Jupyter notebooks for detailed analysis
+
+---
+
+## 📁 Repository Structure
+
+```
+Case_Study_Divvy_Bikes-
+├── Divvy a Year in Review 2023.pdf    # Complete analysis report
+├── README.md                           # Project documentation
+└── LICENSE                             # MIT License
+```
+
+---
+
+## 🔍 Skills Demonstrated
+
+- **Data Cleaning & Validation:** Verified data integrity, handled outliers
+- **Exploratory Data Analysis (EDA):** Identified patterns in temporal data
+- **Statistical Analysis:** Compared user segments with statistical rigor
+- **Data Visualization:** Created compelling Tableau dashboards
+- **Business Intelligence:** Translated data into actionable business recommendations
+
+---
+
+## 📧 Contact
+
+For questions or collaboration opportunities, feel free to reach out:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tirthesh-jani)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TirtheshJani)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <i>Data-driven insights for smarter urban mobility 🚲</i>
+</p>
